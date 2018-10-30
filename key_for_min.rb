@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   minimum = 999999999
-  min_name = name_hash[:name1]
+  min_name = name_hash[0]
   return min_name
   name_hash.each do |name,num|
     if num < minimum
